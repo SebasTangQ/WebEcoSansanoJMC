@@ -3,9 +3,9 @@
 <html>
 <head>
     <title>EcoSansano - Contacto</title>
-    <!-- Agrega las hojas de estilo CSS de Bootstrap -->
+    <!-- Agrega Bootstrap CSS (Bootstrap 5) -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="{% static 'css/custom.css' %}"> <!-- Enlaza tu archivo de estilos personalizados -->
+    <link rel="stylesheet" href="{% static 'css/custom.css' %}"> <!-- Enlace a tu archivo de estilos personalizados -->
 </head>
 <body class="bg-light-custom">
     <!-- Barra de navegación de Bootstrap -->
@@ -13,7 +13,7 @@
     
     <!-- Aquí puedes agregar el contenido de tu página -->
 
-    <div class="container">
+    <div class="container mt-4">
         <h1>Correo</h1>
         <!-- Agrega el contenido de tu página de compostaje aquí -->
     </div>
@@ -21,5 +21,11 @@
     <!-- Agrega los scripts de jQuery, Bootstrap JavaScript al final del body -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <!-- Agrega el archivo JavaScript de DataTables -->
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <!-- Agrega el archivo JavaScript de Bootstrap (con Popper.js) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Enlaza tu archivo JavaScript personalizado -->
+    <script src="{% static 'js/scriptContacto.js' %}"></script>
 </body>
 </html>

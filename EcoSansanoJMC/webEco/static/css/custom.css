@@ -3,3 +3,34 @@
   background-color: #e2f4e8; /* Color de fondo verde claro personalizado */
   color: black; /* Color de texto negro */
 }
+
+/* Define un color verde claro personalizado */
+.custom-green {
+  background-color: #4CAF50; /* Puedes ajustar el valor de color según tu preferencia */
+  color: white; /* Cambia el color del texto si es necesario */
+}
+
+/* Estilo para los botones */
+.custom-btn-green {
+  background-color: #4CAF50; /* Mismo color verde claro */
+  color: white; /* Color del texto en los botones */
+}
+
+/* Estilo para los botones */
+.custom-btn-purple {
+  background-color: #7c20c8; /* Mismo color verde claro */
+  color: white; /* Color del texto en los botones */
+}
+
+/* Estilo para la parte superior del modal */
+.custom-modal-header {
+  background-color: #4CAF50; /* Mismo color verde claro */
+  color: white; /* Color del texto en el encabezado del modal */
+}
+
+/* Estilo para el panel de botones cuadrado de esquinas redondeadas y color blanco */
+.panel-buttons {
+  background-color: white; /* Color de fondo blanco */
+  border-radius: 12px; /* Esquinas redondeadas */
+  padding: 10px; /* Espaciado interior para separación */
+}
